@@ -14,8 +14,6 @@ class Application
     elsif
      @@cart.empty?
       resp.write "Your cart is empty"
-    else
-      resp.write "Path not found"
     end
     
     resp.finish
