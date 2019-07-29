@@ -21,7 +21,8 @@ class Application
         resp.write "#{cart}\n"
       end
     end
-    elsif 
+    elsif req.path.match(/add/)
+    
     
   
     
