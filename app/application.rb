@@ -17,7 +17,7 @@ class Application
     end
     
     resp.finish
-  end
+  
     
       
     if req.path.match(/items/)
